@@ -16,7 +16,7 @@ public class EmailAlertObserverImpl implements NotificationAlertObserver {
     @Override
     public void update() {
         // TODO Auto-generated method stub
-        System.out.println(observable.getStockCount());
+        // System.out.println(observable.getStockCount());
         if (observable.getStockCount() == 0) {
             sendMail(emailId, "Product is out of Stock !");
         } else {

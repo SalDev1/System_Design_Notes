@@ -1,6 +1,6 @@
-package Strategy_Design_Pattern.With_Strategy;
+package StrategyDesignPattern.With_Strategy;
 
-import Strategy_Design_Pattern.With_Strategy.Strategy.NormalDriveStrategy;
+import StrategyDesignPattern.With_Strategy.Strategy.NormalDriveStrategy;
 
 public class GoodsVehicle extends Vehicle {
     GoodsVehicle() {

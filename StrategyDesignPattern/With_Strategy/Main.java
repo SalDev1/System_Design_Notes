@@ -1,4 +1,4 @@
-package Strategy_Design_Pattern.With_Strategy;
+package StrategyDesignPattern.With_Strategy;
 
 public class Main {
 

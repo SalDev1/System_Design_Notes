@@ -1,6 +1,6 @@
-package Strategy_Design_Pattern.With_Strategy;
+package StrategyDesignPattern.With_Strategy;
 
-import Strategy_Design_Pattern.With_Strategy.Strategy.DriveStrategy;
+import StrategyDesignPattern.With_Strategy.Strategy.DriveStrategy;
 
 /*
  * Vehicle
