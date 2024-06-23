@@ -1,6 +1,6 @@
-package lld.bookmyshow;
+package LLD.DesignBookMyShow;
 
-import lld.bookmyshow.enums.SeatCategory;
+import LLD.DesignBookMyShow.enums.SeatCategory;
 
 public class Seat {
     int id;

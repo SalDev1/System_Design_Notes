@@ -1,4 +1,4 @@
-package lld.bookmyshow.enums;
+package LLD.DesignBookMyShow.enums;
 
 public enum SeatCategory {
     SLIVER,

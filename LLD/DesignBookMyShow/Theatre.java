@@ -1,8 +1,9 @@
-package lld.bookmyshow;
+package LLD.DesignBookMyShow;
 
 import java.util.ArrayList;
 import java.util.List;
-import lld.bookmyshow.enums.City;
+
+import LLD.DesignBookMyShow.enums.City;
 
 /**
  * Theatre

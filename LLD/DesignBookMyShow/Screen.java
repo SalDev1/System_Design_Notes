@@ -1,4 +1,4 @@
-package lld.bookmyshow;
+package LLD.DesignBookMyShow;
 
 import java.util.List;
 
