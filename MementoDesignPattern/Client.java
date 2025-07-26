@@ -27,7 +27,6 @@ public class Client {
 
         // UNDO.
         //careTakerObject.undo();
-
         ConfigurationMemento restoreStateMementoObj = careTakerObject.undo();
         originatorObject.restoreMemento(restoreStateMementoObj);
 

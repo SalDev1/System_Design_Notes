@@ -5,9 +5,7 @@ public class Student implements Prototype{
     private int rollNumber;
     String name; 
 
-    Student() {
-
-    }
+    Student() {}
 
     public Student(int age, int rollNumber, String name) {
         this.age = age;

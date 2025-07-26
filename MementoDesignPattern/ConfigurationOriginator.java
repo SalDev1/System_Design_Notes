@@ -28,7 +28,6 @@ public class ConfigurationOriginator {
     public ConfigurationMemento createMemento() {
         return new ConfigurationMemento(this.height, this.width);
     }
-
     // Restoring Object
     public void restoreMemento(ConfigurationMemento mementoToBeRestored) {
         this.height = mementoToBeRestored.height;
