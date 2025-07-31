@@ -22,6 +22,7 @@ public class BalanceSheetController {
             UserExpenseBalanceSheet oweUserExpenseSheet = userOwe.getUserexpenseBalanceSheet();
             double oweAmount = split.getAmountOwe();
 
+            // If the split is made against the same user who owns the money.
             if(expensePaidBy.getUserId().equals(userOwe.getUserId())){
                 paidByUserExpenseSheet.setTotalYourExpense(paidByUserExpenseSheet.getTotalYourExpense()+oweAmount);
             }
@@ -41,7 +42,6 @@ public class BalanceSheetController {
                 }
 
                 userOweBalance.setAmountGetBack(userOweBalance.getAmountGetBack() + oweAmount);
-
 
                 //update the balance sheet of owe user
                 oweUserExpenseSheet.setTotalYouOwe(oweUserExpenseSheet.getTotalYouOwe() + oweAmount);
