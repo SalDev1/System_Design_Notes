@@ -1,9 +1,8 @@
 package InterpreterDesignPattern;
 
 public class Client {
-    
     public static void main(String[] args) {
-            // initialize the context and add some variables
+      // initialize the context and add some variables
       Context context = new Context();
 
       context.put("a",10);
@@ -14,5 +13,3 @@ public class Client {
       System.out.println(expression.interpret(context));
     }
 }
-
-
