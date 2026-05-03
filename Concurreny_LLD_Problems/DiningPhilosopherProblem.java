@@ -33,15 +33,11 @@ class DiningPhilosopher {
 
         // Make the philosopher eat their sphagetti when given a chance. 
         leftForkSemaphore.acquire();
-        pickLeftFork.run();
-        
         rightForkSemaphore.acquire();
-        pickRightFork.run();
 
         // Perform the eating process.
         pickLeftFork.run();
         pickRightFork.run();
-
         eat.run();
 
         // After finishing the sphagetti, drop / put away the left fork and right fork.
